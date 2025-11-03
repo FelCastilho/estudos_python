@@ -1,8 +1,10 @@
-salario = float (input ("Digite seu salario: "))
+primeira_nota = float(input("Digite sua primeira nota: "))
+segunda_nota = float(input("Digite sua segunda nota: "))
 
-if salario <= 2000:
-    print ("Junior")
-elif salario > 2000 and salario <= 4000:
-    print ("Pleno")
-elif salario > 4000:
-    print ("Senior")
+media = (primeira_nota + segunda_nota) / 2
+
+if media >= 7.0: 
+    print("Sua média foi:",media, " \nVocê foi aprovado!")
+else:
+    print("Sua média foi: ", media, " \nVocê foi reprovado!")
+
