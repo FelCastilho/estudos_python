@@ -1,1 +1,0 @@
-#Crie um programa em Python que simule um pequeno sistema de compras, usando apenas condições (if / elif / else).
